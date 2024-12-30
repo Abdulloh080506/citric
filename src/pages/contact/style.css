@@ -1,0 +1,19 @@
+.contact {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contact h1 {
+    font-size: 50px;
+}
+.contact .phones {
+    width: 95%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

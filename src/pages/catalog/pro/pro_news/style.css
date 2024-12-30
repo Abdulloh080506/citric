@@ -1,0 +1,104 @@
+.pro_news {
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.pro_news .top {
+    width: 100%;
+    height: 350px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 30px;
+}
+.pro_news .top .top-hed {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+.pro_news .top .top-hed h1 {
+    font-size: 35px;
+}
+.pro_news .top .top-hed svg {
+    width: 30px;
+    height: 30px;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.pro_news .top .top-foot {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+    gap: 20px;
+}
+.pro_news .top .top-foot p {
+    font-size: 18px;
+    width: 40%;
+}
+
+.section-2 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.section-2 h1 {
+    font-size: 30px;
+}
+.pro-products {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog_product {
+    width: 30%;
+    height: 100%;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 40px;
+}
+.catalog_product .top {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.catalog_product .top img {
+    width: 60%;
+    height: 70%;
+}
+.catalog_product .bottom {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+.catalog_product .bottom p:nth-child(1) {
+    font-size: 25px;
+}
+.catalog_product .bottom p:nth-child(2) {
+    font-size: 25px;
+    font-weight: 300;
+}
+.catalog_product .bottom p:nth-child(2) span {
+    font-size: 26px;
+    font-weight: 700;
+}

@@ -1,0 +1,195 @@
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header figure {
+    width: 8%;
+    height: 44%;
+}
+header figure a img {
+    width: 100%;
+    height: 100%;
+}
+header nav {
+    width: 73%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+}
+header nav ul li {
+    list-style: none;
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul .nav_search {
+    height: 50%;
+    border-left: 1px solid rgb(168, 168, 168);
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    transition: .3s;
+}
+header nav ul li a:hover {
+    color: #70B32F;
+}
+header nav .nav_elements {
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .nav_elements details {
+    width: 65%;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+header nav .nav_elements details div {
+    position: absolute;
+    z-index: 11;
+    width: 121px;
+    height: 14%;
+    background-color: rgb(237, 237, 237);
+    margin-left: -92px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+header nav .nav_elements details div a {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    transition: .3s;
+    cursor: pointer ;
+}
+header nav .nav_elements details div a:hover {
+    color: #70B32F;
+}
+header nav .nav_elements .nav_case {
+    width: 28%;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.burger-menu2 {
+    display: none;
+}
+.burger {
+    display: none;
+}
+
+
+
+
+@media (max-width:1025px) {
+    header {
+        width: 100%;
+        height: 8vh;
+    }
+    .links{
+        display: none;
+    }
+    header .nav_logos {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header figure a {
+        width: 60%;
+        height: 60%;
+    }
+    header figure a img {
+        width: 100%;
+        height: 100%;
+    }
+    .links.is-open{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: white;
+        transition: .3s ease;
+    }
+    .links.is-open ul{
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        background-color: transparent;
+        margin: auto;
+        text-align: center;
+        position: relative;
+        left: -10px;
+    }
+    .links.is-open ul li {
+        width: 100%;
+    }
+    .nav_search {
+        display: none;
+    }
+    .burger {
+        width: 20%;
+        height: 60%;
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .burger-menu {
+        font-size: 20px;
+    }
+    .burger-menu2{
+        display: block;
+        font-size: 30px;
+        color: black;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    header nav .nav_elements {
+        display: none;
+    }
+}

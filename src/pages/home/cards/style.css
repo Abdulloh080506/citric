@@ -1,0 +1,230 @@
+.cards_container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.cards_container main {
+    width: 48.5%;
+    height: 100%;
+    background-color: #FFA800;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.cards_container main:nth-child(2) {
+    background-color: #70B32F;
+    overflow: hidden;
+    position: relative;
+}
+.left-card .bg-rounds {
+    width: 80%;
+    height: 100%;
+    background-color: #ffc44e;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 200px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-card .bg-rounds div {
+    width: 75%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb82b;
+    border-radius: 50%;
+}
+.left-card .bg-rounds div div {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFA800;
+    border-radius: 50%;
+}
+.z-index-1 {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.z-index-1 img {
+    width: 80%;
+    height: 80%;
+}
+.right-card .text{
+    position: absolute;
+    z-index: 11;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right-card .text h1 {
+    width: 90%;
+    font-size: 30px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-card .text p:nth-child(2) {
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-card .text p:nth-child(3) {
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-card .text p:nth-child(4) {
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right-card .text button {
+    width: 90%;
+    height: 9%;
+    font-size: 18px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    border: 2px solid white;
+    border-radius: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+.right-card .text button svg {
+    transform: scale(1.3);
+}
+.bg-rounds2 {
+    width: 60%;
+    height: 72%;
+    background-color: #8ED14D;
+    border-radius: 50%;
+    margin-left: 400px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-rounds2 div {
+    width: 82%;
+    height: 82%;
+    background-color: #84C743;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-rounds2 div div {
+    width: 77%;
+    height: 77%;
+    background-color: #7ABD39;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-rounds2 div div div {
+    width: 70%;
+    height: 70%;
+    background-color: #70B32F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .cards_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 1000px;
+        margin-top: 10px;
+    }
+    .left-card {
+        width: 100%;
+        height: 49%;
+        
+    }
+    .cards_container main {
+        width: 100%;
+        height: 49%;
+    }
+    .right-card .text{
+        position: absolute;
+        z-index: 11;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .right-card .text h1 {
+        width: 90%;
+        font-size: 25px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-card .text p:nth-child(2) {
+        width: 90%;
+        font-size: 16px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-card .text p:nth-child(3) {
+        width: 90%;
+        font-size: 16px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-card .text p:nth-child(4) {
+        width: 90%;
+        font-size: 16px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

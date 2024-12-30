@@ -1,0 +1,88 @@
+.aboutbrands {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-top: 80px;
+}
+.aboutbrands .text {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.aboutbrands .brands {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .one {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .two{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .three{
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .one div {
+    width: 25%;
+    height: 100%;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .one div:last-child {
+    border-right: none;
+}
+.aboutbrands .brands .two div:last-child {
+    border-right: none;
+}
+.aboutbrands .brands .three div:last-child {
+    border-right: none;
+}
+.aboutbrands .brands .two div {
+    width: 25%;
+    height: 100%;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .three div {
+    width: 25%;
+    height: 100%;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutbrands .brands .two div img,
+.aboutbrands .brands .one div img,
+.aboutbrands .brands .three div img {
+    transform: scale(0.2);
+}

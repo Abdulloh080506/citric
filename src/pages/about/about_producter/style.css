@@ -1,0 +1,83 @@
+.producters {
+    font-size: 35px;
+    margin-top: 80px;
+}
+.aboutproducter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutproducter .product {
+    width: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.aboutproducter .product .h1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(244, 244, 244);
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.aboutproducter .product .h1 h1 {
+    font-size: 30px;
+    color: #70B32F;
+}
+.aboutproducter .product .h1 p {
+    font-size: 20px;
+    color: #70B32F;
+}
+.aboutproducter .product .about {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.aboutproducter .product .about p {
+    width: 90%;
+    font-size: 20px;
+}
+.aboutproducter .product .about a {
+    color: #70B32F;
+}
+.aboutproducter .product button {
+    width: 90%;
+    height: 9%;
+    border: none;
+    border: 1px solid #70B32F;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 16px;
+    margin: auto;
+    color: black;
+    background: transparent;
+}
+.aboutproducter .product button svg {
+    color: #70B32F;
+}
+.about_more {
+    width: 250px;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    border-radius: 27px;
+    margin-top: 40px;
+    transition: .3s;
+}
+.about_more:hover {
+    background-color: #70B32F;
+    color: white;
+}
