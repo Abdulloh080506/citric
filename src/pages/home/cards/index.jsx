@@ -13,7 +13,7 @@ const Cards = () => {
             </div>
             <div className='bg-rounds'>
                 <div>
-                    <div>
+                    <div>   
                         <div></div>
                     </div>
                 </div>

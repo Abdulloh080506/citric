@@ -1,8 +1,10 @@
 import React from 'react';
 import '../about_producter/style.css';
 import { MdNavigateNext } from "react-icons/md";
+import { useState } from 'react';
 
 const AboutProducter = () => {
+
   return (
     <>
     <h1 className='producters'>Vacancies</h1>
@@ -115,4 +117,4 @@ const AboutProducter = () => {
   )
 }
 
-export default AboutProducter;
+export default AboutProducter;  

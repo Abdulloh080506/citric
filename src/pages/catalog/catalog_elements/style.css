@@ -64,7 +64,7 @@
     margin-top: 40px;
 }
 .catalog_products .center .catalog_product {
-    width: 30%;
+    width: 29.6%;
     height: 600px;
     border: 1px solid rgb(231, 231, 231);
     border-radius: 40px;
@@ -119,3 +119,32 @@
     background-color: #70B32F;
     color: white;
 }
+
+
+
+
+
+.alert-box {
+    display: none; /* Boshlang'ichda ko'rinmaydi */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 20px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .alert-box button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #721c24;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }

@@ -1,19 +1,46 @@
 .contact {
     width: 100%;
-    height: 500px;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .contact h1 {
     font-size: 50px;
 }
 .contact .phones {
     width: 95%;
-    height: 70%;
+    height: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.contact .phones .contact-elements {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    left: 30px;
+}
+.contact .phones .contact-elements p {
+    position: relative;
+    left: 0;
+}
+.contact .phones div:nth-child(4) .icons {
+    width: 40%;
+    height: 50%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .phones div:nth-child(4) .icons svg {
+    width: 25px;
+    height: 25px;
 }
