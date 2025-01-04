@@ -83,3 +83,82 @@
     color: white;
     font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .pro-banner {
+        width: 100%;
+        height: 1000px;
+        margin-top: 10px;
+    }
+    .pro-banner .pro {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+    .pro-banner .pro .product {
+        width: 100%;
+        height: 49%;
+        margin-top: 0;
+    }
+    .pro-banner .pro .prise {
+        width: 100%;
+        height: 45%;
+    }
+    .pro-banner .pro .product img {
+        width: 300px;
+    }
+    .pro-banner .pro .prise h1 {
+        font-size: 20px;
+        width: 93%;
+        position: relative;
+        top: 7px;
+    }
+    .pro-banner .pro .prise .real-prise p:nth-child(1) {
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+    }
+    .pro-banner .pro .prise .real-prise p:nth-child(2) {
+        font-size: 25px;
+        font-weight: 250;
+        position: relative;
+        top: 10px;
+    }
+    .pro-banner .pro .prise .real-prise p:nth-child(2) span {
+        font-size: 30px;
+    }
+    .pro-banner .pro .prise .real-prise {
+        width: 100%;
+        position: relative;
+        left: -13px;
+        border-top: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    .pro-banner .pro .prise .about-pro p {
+        font-size: 17px;
+    }
+    .pro-banner .pro .prise button {
+        width: 90%;
+        height: 10%;
+    }
+}

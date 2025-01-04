@@ -124,27 +124,43 @@
 
 
 
-.alert-box {
-    display: none; /* Boshlang'ichda ko'rinmaydi */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #f8d7da;
-    color: #721c24;
-    padding: 20px;
-    border: 1px solid #f5c6cb;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
 
-  .alert-box button {
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #721c24;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
+
+
+
+
+@media (max-width: 992px) {
+    .catalog_products #top {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .catalog_products .top .top_text {
+        width: 100%;
+        height: 10%;
+    }
+    .catalog_products .top .top_nav {
+        width: 100%;
+        height: 90%;
+        margin: auto;
+    }
+    .catalog_products .top .top_nav ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .catalog_products .center .catalog_product {
+        width: 100%;
+        height: 600px;
+        border: 1px solid rgb(231, 231, 231);
+        border-radius: 40px;
+    }
+    .catalog_products .center .catalog_product .bottom p:nth-child(1) {
+    width: 80%;
+    }
+}

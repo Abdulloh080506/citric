@@ -8,7 +8,7 @@ const CatalogProducts = () => {
     <>
     <section className='catalog_products'>
 
-        <div className='top'>
+        <div id='top' className='top'>
             <div className='top_text'>
                 <h1>All of them</h1>
                 <button>Filter</button>

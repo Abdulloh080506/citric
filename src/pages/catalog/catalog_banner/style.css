@@ -42,3 +42,10 @@
     90%{transform: translateX(0%);}
     100%{transform: translateX(0%);}
 }
+
+
+
+
+@media (max-width: 992px) {
+    
+}

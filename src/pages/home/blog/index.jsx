@@ -5,7 +5,7 @@ import { MdNavigateNext } from "react-icons/md";
 const Blog = () => {
   return (
     <>
-    <section className='blog'>
+    <section id='blog' className='blog'>
         <h1>Blog</h1>
         <div className='blog-pro'>
             <div>

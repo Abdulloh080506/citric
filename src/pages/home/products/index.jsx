@@ -150,9 +150,9 @@ const Products = () => {
                 <Case/>
             </div>
         </div>
+    <button className='more'>Show more</button>
     </section>
 
-    <button className='more'>Show more</button>
     </>
   )
 }
