@@ -38,6 +38,7 @@ header nav ul li {
     align-items: center;
 }
 header nav ul .nav_search {
+    width: 8%;
     height: 50%;
     border-left: 1px solid rgb(168, 168, 168);
 }
@@ -51,14 +52,14 @@ header nav ul li a:hover {
     color: #70B32F;
 }
 header nav .nav_elements {
-    width: 17%;
+    width: 18%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header nav .nav_elements details {
-    width: 65%;
+    width: 70%;
     height: 100%;
     background-color: rgb(237, 237, 237);
     border-radius: 30px;
@@ -111,11 +112,45 @@ header nav .nav_elements .nav_case {
 
 
 
+@media (max-width: 992px) {
+    header figure {
+        width: 14%;
+        height: 33%;
+    }
+    header figure a img {
+        width: 100%;
+        height: 100%;
+    }
+    header nav {
+        width: 82%;
+        height: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav ul {
+        width: 75%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(237, 237, 237);
+        border-radius: 30px;
+    }
+    header nav ul li a {
+        font-size: 12px;
+    }
+    header nav .nav_elements {
+        width: 24%;
+    }
+}
 
-@media (max-width:1025px) {
+
+
+@media (max-width: 576px) {
     header {
         width: 100%;
-        height: 8vh;
+        height: 7vh;
     }
     .links{
         display: none;

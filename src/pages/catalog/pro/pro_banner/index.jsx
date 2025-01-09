@@ -2,11 +2,28 @@ import React from 'react';
 import '../pro_banner/style.css';
 import { Link } from 'react-router-dom';
 import ProducT from '../../../../assets/img/product_2.png';
+import { useEffect } from 'react';
 
 const ProBanner = () => {
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash) {
+          const element = document.querySelector(hash);
+          if (element) {
+            const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+            const offset = 100; 
+            window.scrollTo({
+              top: elementPosition - offset,
+              behavior: 'smooth',
+            });
+          }
+        }
+      }, []);
+
   return (
     <>
-    <section className='pro-banner'>
+    <section id='first' className='pro-banner'>
         <Link to="/catalog">Orqaga</Link>
         <div className='pro'>
 

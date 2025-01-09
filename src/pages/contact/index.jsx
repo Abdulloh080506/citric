@@ -24,7 +24,7 @@ const Contact = () => {
             </div>
             <div className='contact-elements'>
                 <p>Ijtimoiy tarmoqlar</p>
-                <div className='icons'>
+                <div className='icons2'>
                     <FaInstagram/>
                     <LiaFacebook/>
                     <RiTelegramLine/>

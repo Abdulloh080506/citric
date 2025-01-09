@@ -1,7 +1,6 @@
 import React from 'react';
 import '../about_producter/style.css';
 import { MdNavigateNext } from "react-icons/md";
-import { useState } from 'react';
 
 const AboutProducter = () => {
 
@@ -112,7 +111,9 @@ const AboutProducter = () => {
             </button>
         </div>
     </section>
-    <button className='about_more'>See more</button>
+    <div className='but'>
+        <button className='about_more'>See more</button>
+    </div>
     </>
   )
 }

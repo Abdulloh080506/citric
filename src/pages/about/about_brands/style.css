@@ -95,14 +95,20 @@
 
 
 
-@media (max-width: 992px) {
+
+
+
+
+
+
+@media (max-width: 576px) {
     .aboutbrands {
         width: 100%;
-        height: 1300px;
+        height: 1500px !important;
     }
     .aboutbrands .brands {
         width: 100%;
-        height: 95%;
+        height: 90%;
     }
     .aboutbrands .brands .one {
         width: 100%;
@@ -126,15 +132,56 @@
         justify-content: space-between;
     }
     .aboutbrands .brands .one div{
-        width: 100%;
-        height: 25%;
+        width: 100% !important;
+        height: 25% !important;
     }
     .aboutbrands .brands .two div{
-        width: 100%;
-        height: 25%;
+        width: 100% !important;
+        height: 25% !important;
     }
     .aboutbrands .brands .three div{
+        width: 100% !important;
+        height: 25% !important;
+    }
+}
+
+
+
+@media (max-width: 1025px) {
+    .aboutbrands {
+        height: 700px;
+    }
+    .aboutbrands .brands .one {
         width: 100%;
-        height: 25%;
+        height: 33.33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .aboutbrands .brands .two {
+        width: 100%;
+        height: 33.33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .aboutbrands .brands .three {
+        width: 100%;
+        height: 33.33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .aboutbrands .brands .one div{
+        width: 50%;
+        height: 50%;
+    }
+    .aboutbrands .brands .two div{
+        width: 50%;
+        height: 50%;
+    }
+    .aboutbrands .brands .three div{
+        width: 50%;
+        height: 50%;
     }
 }

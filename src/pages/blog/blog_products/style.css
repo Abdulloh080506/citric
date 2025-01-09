@@ -1,11 +1,15 @@
-.blog-pro {
+.blog-pro2 {
     width: 100%;
+    height: 1000px;
     display: flex;
     flex-wrap: wrap;
-    gap: 76.1px;
     margin-top: 10px;
+    gap: 76.1px;
+    margin-bottom: 80px;
 }
 .blog-right {
+    width: 30%;
+    height: 49%;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 20px;
 }
@@ -15,14 +19,31 @@
     position: relative;
     top: 0;
     left: 0;
+    background-image: url('../../../assets/img/food_1.png');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .blog-right .texts {
+    width: 100%;
+    height: 50%;
     position: relative;
-    top: -10px;
+    top: -10px;display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px;
 }
-.blog-right .texts h1, p {
-    position: relative;
-    left: 20px;
+.blog-right .texts button {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border: 1px solid #70B32F;
+    background-color: transparent;
 }
 
 
@@ -30,19 +51,48 @@
 
 
 
-
-
-
-
-@media (max-width: 992px) {
-    .blog-pro {
-        width: 90%;
+@media (max-width: 1025px) {
+    .blog-pro2 {
+        width: 100%;
+        height: 1700px;
         margin: auto;
         margin-bottom: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0px ;
+    }
+    .blog-right {
+        width: 48%;
+        height: 32%;
+    }
+    .blog-right .texts {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .blog-pro2 {
+        width: 100%;
+        height: 3800px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .blog-right {
+        width: 100%;
+        height: 15%;
     }
     .blog-right .texts p {
-        position: relative;
-        left: 20px !important;
     }
     .blog-right .img {
         width: 100% !important ;

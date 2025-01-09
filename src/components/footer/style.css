@@ -93,52 +93,109 @@
 .right {
     width: 48%;
     height: 85%;
-    background-color: aquamarine;
     border-radius: 30px;
 }
 .location {
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: 30px;
+    border-radius: 30px !important;
+}
+.location a {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30px !important;
+}
+.location iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30px !important;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 992px) {
+@media (max-width: 1025px) {
     .footer {
         width: 100%;
         height: 570px;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .left .top {
+        height: 33%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left .center {
+        height: 33%;
+        display: flex;
+        flex-direction: column;
+    }
+    .left .bottom {
+        height: 20%;
+    }
+    .left .top div{
+        width: 100%;
+        height: 39%;
+    }
+    .left .center .second{
+        width: 100%;
+        height: 39%;
+    }
+    .left .bottom img{
+        width: 110px;
+        height: 40px;
+    }
+    .left .bottom p {
+        width: 50%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        width: 100%;
+        height: 700px;
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        /* margin-top: 600px; */
     }
     .footer .left {
         width: 100%;
-        height: 48%;
+        height: 58%;
     }
     .footer .right {
         width: 100%;
-        height: 48%;
+        height: 40%;
     }
     .footer .right .location {
         width: 100%;
         height: 100%;
+    }
+    .left .top {
+        width: 90%;
+        height: 28%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .left .center {
+        width: 90%;
+        height: 28%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .left .top div {
+        height: 40% !important;
+    }
+    .left .center .second {
+        height: 40% !important;
     }
     .left .top div p {
         font-size: 14px;
@@ -178,7 +235,7 @@
     }
     .left .bottom {
         width: 80%;
-        height: 30%;
+        height: 20%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -192,4 +249,4 @@
         font-size: 13px;
         color: white;
     }
-}
+}   

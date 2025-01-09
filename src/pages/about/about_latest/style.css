@@ -42,7 +42,10 @@
 
 
 
-@media (max-width: 992px) {
+
+
+
+@media (max-width: 1025px) {
     .latest {
         width: 100%;
         height: 300px;
@@ -50,7 +53,7 @@
         margin-top: 50px;
     }
     .latest .center {
-        width: 80%;
+        width: 50%;
         height: 60%;
         text-align: center;
     }
@@ -61,5 +64,19 @@
         width: 100%;
         height: 30%;
         font-size: 17px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .latest {
+        width: 100%;
+        height: 300px !important;
+        margin-top: 50px;
+    }
+    .latest .center {
+        width: 80%;
+        height: 60%;
+        text-align: center;
     }
 }

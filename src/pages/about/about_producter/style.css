@@ -1,4 +1,4 @@
-.producters {
+    .producters {
     font-size: 35px;
     margin-top: 80px;
 }
@@ -33,6 +33,8 @@
 .aboutproducter .product .h1 p {
     font-size: 20px;
     color: #70B32F;
+    position: relative;
+    left: 0;
 }
 .aboutproducter .product .about {
     width: 100%;
@@ -40,14 +42,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 20px;
+    padding-left: 0px;
     border-bottom: 1px solid rgb(232, 232, 232);
 }
 .aboutproducter .product .about p {
     width: 90%;
     font-size: 20px;
+    position: relative;
+    left: 20px;
 }
 .aboutproducter .product .about a {
+    position: relative;
+    left: 20px;
     color: #70B32F;
 }
 .aboutproducter .product button {
@@ -86,15 +92,60 @@
 
 
 
+@media (max-width: 1025px) {
+    
+    .aboutproducter .product{
+        width: 48%;
+        height: 400px;
+        margin-top: 20px;
+    }
+    .aboutproducter .product .h1 h1 {
+        font-size: 25px;
+        color: #70B32F;
+    }
+    .aboutproducter .product .h1 p {
+        font-size: 18px;
+        color: #70B32F;
+        position: relative;
+        left: 0;
+    }
+    .aboutproducter .product .about p {
+        width: 92%;
+        font-size: 16px;
+    }
+    .aboutproducter .product .about a {
+        position: relative;
+        left: 20px;
+        color: #70B32F;
+    }
+    .aboutproducter .product button {
+        padding: 0px;
+    }
+    .about_more {
+        
+    }
+    .but {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+}
 
 
 
 
 
-@media (max-width: 992px) {
+
+@media (max-width: 576px) {
     .aboutproducter .product{
         width: 100%;
         height: 600px;
         margin-top: 20px;
+    }
+    .about_more {
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }

@@ -78,14 +78,53 @@
 
 
 
-
-
-
-
-
-
-
 @media (max-width: 992px) {
+    .banner {
+        height: 300px;
+    }
+    .banner_position {
+        position: absolute;
+        z-index: 1;
+        top: -400px;
+        left: -480px;
+        transform: scale(0.4) rotate(350deg);
+    }
+    .img:nth-child(1) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        z-index: 11;
+        top: 200px;
+        left: 320px;
+        transform: scale(0.6);
+    }
+    .img:nth-child(2) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        z-index: 11;
+        top: 250px;
+        left: 100px;
+        transform: scale(0.6);
+    }
+    .img:nth-child(3) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        left: 100px;
+        transform: scale(0.6);
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 576px) {
     .banner {
         height: 400px;
     }
@@ -129,5 +168,11 @@
         left: 0;
         transform: scale(0.6);
     }
-    
 }
+
+
+
+
+
+
+

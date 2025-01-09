@@ -3,7 +3,7 @@ import Banner from './banner';
 import Cards from './cards';
 import HomeNav from './home_nav';
 import Products from './products';
-import Blog from './blog';
+import HomeBlog from './blog';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
     <Cards/>
     <HomeNav/>
     <Products/>
-    <Blog/>
+    <HomeBlog/>
     </>
   )
 }

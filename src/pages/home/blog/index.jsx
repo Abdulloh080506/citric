@@ -2,13 +2,13 @@ import React from 'react';
 import '../blog/style.css';
 import { MdNavigateNext } from "react-icons/md";
 
-const Blog = () => {
+const HomeBlog = () => {
   return (
     <>
     <section id='blog' className='blog'>
         <h1>Blog</h1>
         <div className='blog-pro'>
-            <div>
+            <div className='div'>
                 <div></div>
                 <div>
                     <h3>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h3>
@@ -16,7 +16,7 @@ const Blog = () => {
                     <button>Batafsil ko'rish <MdNavigateNext/></button>
                 </div>
             </div>
-            <div>
+            <div className='div'>
                 <div></div>
                 <div>
                     <h3>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h3>
@@ -24,7 +24,7 @@ const Blog = () => {
                     <button>Batafsil ko'rish <MdNavigateNext/></button>
                 </div>
             </div>
-            <div>
+            <div className='div'>
                 <div></div>
                 <div>
                     <h3>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h3>
@@ -38,4 +38,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default HomeBlog;
