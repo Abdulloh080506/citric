@@ -34,9 +34,15 @@
     border: 1px solid #70B32F;
     background-color: transparent;
     border-radius: 30px;
+    transition: .3s;
 }
-
-
+.latest .center button:hover {
+    background-color:#70B32F;
+    color: white;
+}
+.latest .center button:hover svg {
+    color: white;
+}
 
 
 

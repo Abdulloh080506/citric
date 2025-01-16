@@ -28,6 +28,11 @@
     border: none;
     border: 1px solid #70B32F;
     border-radius: 20px;
+    transition: .3s ;
+}
+.catalog_products .top .top_text button:hover {
+    background-color: #70B32F;
+    color: white;
 }
 .catalog_products .top #top_nav {
     width: 100%;
@@ -166,25 +171,17 @@
     font-weight: 700;
 }
 #top_nav {
-    width: 300px !important;
-    height: 400px;
-    position: absolute;
-    top: 800px;
+    width: 90%;
 }
     #top_nav ul {
         width: 100%;
-        height: 90% !important;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        left: 0px;
-        top: 20px;
+        justify-content: start !important;
+        flex-wrap: wrap;
+        gap: 5px;
     }
     #top_nav ul li {
-        width: 90%;
-        height: 10%;
+        padding: 10px 20px;
         background-color: aliceblue;
         list-style: none;
         display: flex;
@@ -215,7 +212,7 @@
 @media (max-width: 576px) {
     .catalog_products #top {
         width: 100%;
-        height: 100px;
+        height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -249,8 +246,8 @@
     #top_nav {
         width: 300px;
         height: 400px;
-        position: absolute;
-        top: 680px;
+        margin-top: 10px;
+        margin-bottom: 10px; 
     }
     #burger_2 {
         display: block;

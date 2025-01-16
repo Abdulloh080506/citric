@@ -51,6 +51,9 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #70B32F;
 }
+header nav ul li a:active {
+    color: #70B32F;
+}
 header nav .nav_elements {
     width: 18%;
     height: 100%;
@@ -109,10 +112,51 @@ header nav .nav_elements .nav_case {
 .burger {
     display: none;
 }
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
 
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
 
-
-@media (max-width: 992px) {
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+.nav_search2 {
+    display: none;
+}
+.responsive-nav {
+    display: none;
+}
+@media (max-width: 1025px) {
     header figure {
         width: 14%;
         height: 33%;
@@ -187,22 +231,28 @@ header nav .nav_elements .nav_case {
     }
     .links.is-open ul{
         width: 50%;
-        height: 90%;
+        height: 80%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
         background-color: transparent;
-        margin: auto;
         text-align: center;
         position: relative;
-        left: -10px;
+        left: 20px;
+        top: 20px;
     }
     .links.is-open ul li {
-        width: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: center ;
+    }
+    .links.is-open ul li a {
+        font-size: 16px;
     }
     .nav_search {
-        display: none;
+        display: none !important;
     }
     .burger {
         width: 20%;
@@ -226,5 +276,8 @@ header nav .nav_elements .nav_case {
     }
     header nav .nav_elements {
         display: none;
+    }
+    details {
+        display: block !important;
     }
 }

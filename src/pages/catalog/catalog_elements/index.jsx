@@ -1,17 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../catalog_elements/style.css';
 import Product1 from '../../../assets/img/product_2.png';
 import { Link } from 'react-router-dom';
-import { GiHamburgerMenu } from "react-icons/gi";
 
 const CatalogProducts = () => {
-
-    const [isOpen, setIsOpen] = useState(false)
-
-    const state = () => {
-        setIsOpen((open) => !open)
-    }
-
     return (
     <>
     <section className='catalog_products'>
@@ -21,11 +13,7 @@ const CatalogProducts = () => {
                 <h1>All of them</h1>
                 <button>Filter</button>
             </div>
-            <div id='burger_2' className='burger_2'>  
-                <p>Menu</p>
-                <GiHamburgerMenu onClick={state} className='burger-menu'/>
-            </div>
-            <div id='top_nav' className={`links2 ${isOpen ? 'is-open' : ''}` }>
+            <div id='top_nav'>
                 <ul>
                     <li><a href="">Antioksidantlar</a></li>
                     <li><a href="">Xushbo'y moddalar</a></li>
@@ -34,7 +22,7 @@ const CatalogProducts = () => {
                     <li><a href="">Oziq-ovqat qo'shimchalari</a></li>
                     <li><a href="">Stabilizatorlar</a></li>
                     <li><a href="">Ta'mni kuchaytiruvchi</a></li>
-                </ul>
+                </ul>   
             </div>
         </div>
 

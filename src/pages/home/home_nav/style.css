@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 20px;
     margin-top: 100px;
 }
 .home_nav h1 {
@@ -36,84 +37,50 @@
 .home_nav nav ul li:hover a {
     color: #70B32F;
 }
+.burger_2 {
+    display: none;
+}
 @media (max-width: 992px) {
     .home_nav {
-        width: 100%;
-        height: 10vh;
-        display: flex !important;
+        width: 75%;
+        height: 20vh;
+        display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
         margin-top: 50px;
-        padding-left: 15px;
         }
         .home_nav h1 {
             font-size: 35px;
         }
-        .home_nav .links2 ul {
-            width: 90% !important;
-            height: 93% !important;
-            display: flex;
-            flex-direction: column;
-            align-items: center !important;
-            justify-content: center;
-            gap: 5px;
-            position: relative;
-            top: 8px !important;
-            left: 0px !important;
+        .home_nav nav {
+            width: 100%;
+            height: 95%;
         }
-        .home_nav .links2 ul li {
-            width: 100% !important;
-            height: 10% !important;
-            background-color: rgb(255, 255, 255);
+        .home_nav nav ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            align-items: start;
+            gap: 10px;
+        }
+        .home_nav nav ul li {
+            background-color: rgb(235, 235, 235);
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 0;
         }
-        .home_nav .links2 ul li a {
+        .home_nav nav ul li a {
             font-size: 17px;
         }
-        .links2 {
-            display: none !important;
-        }
-        .links2.is-open{
-            display: block !important;
-            position: absolute;
-            top: 980px;
-            left: 10px;
-            z-index: 10;
-            width: 30%;
-            height: 45vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start;
-            background-color: rgb(216, 216, 216);
-            transition: .3s ease;
-            border-radius: 10px;
-        }
-        .links2.is-open ul{
-            width: 50%;
-            height: 90%;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: start;
-            background-color: transparent;
-            margin: auto;
-            text-align: center;
-            position: relative;
-            left: -10px;
-        }
-        .links2.is-open ul li {
-            width: 100%;
-        }
+        
         .burger_2 {
             width: 12%;
-            height: 50px !important;
+            height: 50px;
             display: flex;
-            justify-content: space-between !important;
+            justify-content: space-between;
             align-items: end;
         }
         .burger_2 p {
@@ -121,7 +88,7 @@
             left: 0;
             top: 1.5px;
             font-size: 20px;
-            font-weight: 500 !important;
+            font-weight: 500;
         }
 }
 
@@ -131,8 +98,8 @@
 @media (max-width: 576px) {
     .home_nav {
     width: 100%;
-    height: 10vh;
-    display: flex !important;
+    height: 20vh;
+    display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
@@ -141,65 +108,28 @@
     }
     .home_nav h1 {
         font-size: 35px;
+        position: relative;
+        left: -15px;
     }
-    .home_nav .links2 ul {
-        width: 90% !important;
-        height: 93% !important;
+    .home_nav nav {
+        width: 100%;
+        height: 90%;
+    }
+    .home_nav nav ul {
+        width: 100%;
+        height: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: center !important;
-        justify-content: center;
+        flex-wrap: wrap;
         gap: 5px;
         position: relative;
-        top: 8px !important;
-        left: 0px !important;
+        left: -15px;
     }
-    .home_nav .links2 ul li {
-        width: 100% !important;
-        height: 10% !important;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+    .home_nav nav ul li {
+        background-color: rgb(235, 235, 235);
+        padding: 10px 20px;
     }
-    .home_nav .links2 ul li a {
+    .home_nav nav ul li a {
         font-size: 13px;
-    }
-    .links2 {
-        display: none !important;
-    }
-    .links2.is-open{
-        display: block !important;
-        position: absolute;
-        top: 1640px;
-        left: 10px;
-        z-index: 10;
-        width: 40%;
-        height: 35vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
-        background-color: rgb(216, 216, 216);
-        transition: .3s ease;
-        border-radius: 10px;
-    }
-    .links2.is-open ul{
-        width: 50%;
-        height: 90%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-        background-color: transparent;
-        margin: auto;
-        text-align: center;
-        position: relative;
-        left: -10px;
-    }
-    .links2.is-open ul li {
-        width: 100%;
     }
     .burger_2 {
         width: 20%;

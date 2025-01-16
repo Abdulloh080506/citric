@@ -172,6 +172,7 @@
         flex-direction: column;
         justify-content: start;
         margin-top: 30px;
+        margin-bottom: -200px;
     }
     .product {
         width: 100% !important;

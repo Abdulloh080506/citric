@@ -157,15 +157,19 @@
 @media (max-width: 576px) {
     .footer {
         width: 100%;
-        height: 700px;
+        height: 800px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 10px;
     }
     .footer .left {
         width: 100%;
         height: 58%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     .footer .right {
         width: 100%;
@@ -177,52 +181,52 @@
     }
     .left .top {
         width: 90%;
-        height: 28%;
+        height: 35%;
         margin-left: 0px;
         display: flex;
         justify-content: space-between;
         align-items: start;
+        margin-top: 20px;
     }
     .left .center {
         width: 90%;
-        height: 28%;
+        height: 35%;
         margin-left: 0px;
         display: flex;
         justify-content: space-between;
         align-items: start;
-    }
-    .left .top div {
-        height: 40% !important;
+        margin-top: 20px;
     }
     .left .center .second {
         height: 40% !important;
     }
     .left .top div p {
-        font-size: 14px;
+        width: 100% !important;
+        font-size: 20px;
         color: white;
         position: relative;
         left: 0;
     }
     .left .top div h2 {
-        font-size: 17px;
+        font-size: 23px;
         color: white;
     }
     .left .top div{
-        width: 48%;
-        height: 70%;
+        width: 100%;
+        height: 40%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
     }
     .left .center div p {
-        font-size: 14px;
+        font-size: 20px;
         color: white;
         position: relative;
         left: 0;
     }
     .left .center div h2 {
-        font-size: 17px;
+        font-size: 23px;
         color: white;
     }
     .left .center .second {
@@ -233,9 +237,15 @@
         justify-content: space-between;
         align-items: start;
     }
+    .left .center .second:nth-child(2) .icons {
+        width: 60%;
+    }
+    .left .center .second:nth-child(2) .icons svg {
+        font-size: 27px;
+    }
     .left .bottom {
-        width: 80%;
-        height: 20%;
+        width: 90%;
+        height: 17%;
         display: flex;
         justify-content: space-between;
         align-items: center;

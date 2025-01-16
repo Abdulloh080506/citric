@@ -163,7 +163,9 @@
         height: 30%;
     }
     .pro_news .top .top-hed h1 {
-        font-size: 25px;
+        font-size: 23px;
+        position: relative;
+        left: -10px;
     }
     .pro_news .top .top-foot {
         height: 60%;
@@ -215,5 +217,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .catalog_product .top img {
+        width: 60%;
+        height: 40% !important;
     }
 }

@@ -1,25 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../home_nav/style.css';
-import { GiHamburgerMenu } from "react-icons/gi";
-import { IoClose } from "react-icons/io5";
-
 const HomeNav = () => {
-
-    const [isOpen, setIsOpen] = useState(false)
-  
-    const state = () => {
-      setIsOpen((open) => !open)
-    }
-
   return (
     <>
     <section className='home_nav'>
         <h1>Catalog</h1>
-        <div className='burger_2'>  
-          <p>Menu</p>
-          <GiHamburgerMenu onClick={state} className='burger-menu'/>
-        </div>
-        <nav className={`links2 ${isOpen ? 'is-open' : ''}` }>
+        <nav>
             <ul>
                 <li><a href="">Everything</a></li>
                 <li><a href="">Flavors</a></li>
@@ -35,5 +21,4 @@ const HomeNav = () => {
     </>
   )
 }
-
 export default HomeNav;

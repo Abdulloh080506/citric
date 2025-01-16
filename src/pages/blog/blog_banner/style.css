@@ -114,6 +114,14 @@
     padding: 0px 20px;
     border: 1px solid #70B32F;
     border-radius: 20px;
+    transition: .3s;
+}
+.blog-container .blog-right .texts button:hover {
+    background-color:#70B32F;
+    color: white;
+}
+.blog-container .blog-right .texts button:hover svg {
+    color: white;
 }
 .blog-container .blog-right .texts h1 {
     font-size: 35px;

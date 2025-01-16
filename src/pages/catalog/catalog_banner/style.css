@@ -29,6 +29,7 @@
     animation: slider 10s ease infinite alternate;
 }
 
+
 @keyframes slider{
     0%{transform: translateX(0%);}
     10%{transform: translateX(-100%);}
@@ -45,7 +46,11 @@
 
 
 
-
-@media (max-width: 992px) {
-    
+@media (max-width: 1025px) {
+    .catalog_banner {
+        margin-top: 0px;
+    }
+    .catalog_banner h1 {
+        font-size: 40px;
+    }
 }

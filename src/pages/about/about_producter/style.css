@@ -70,9 +70,18 @@
     margin: auto;
     color: black;
     background: transparent;
+    transition: .3s;
+}
+.aboutproducter .product button:hover {
+    background-color: #70B32F;
+    color: white;
 }
 .aboutproducter .product button svg {
     color: #70B32F;
+}
+.aboutproducter .product button:hover svg {
+    color: white
+    ;
 }
 .about_more {
     width: 250px;
@@ -119,7 +128,7 @@
         color: #70B32F;
     }
     .aboutproducter .product button {
-        padding: 0px;
+        padding: 0px 15px;
     }
     .about_more {
         
