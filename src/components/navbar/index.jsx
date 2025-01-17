@@ -7,7 +7,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
-
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false)
@@ -27,11 +26,11 @@ const Navbar = () => {
         </figure>
         <nav className={`links ${isOpen ? 'is-open' : ''}` }>
             <ul>
-                <li><Link to="/about">About us</Link></li>
-                <li><Link to="/catalog">Catalog</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
-                <li><Link to="">Vacancies</Link></li>
-                <li><Link to="/contact">Contacts</Link></li>
+                <li><Link onClick={state} to="/about">About us</Link></li>
+                <li><Link onClick={state} to="/catalog">Catalog</Link></li>
+                <li><Link onClick={state} to="/blog">Blog</Link></li>
+                <li><Link onClick={state} to="">Vacancies</Link></li>
+                <li><Link onClick={state} to="/contact">Contacts</Link></li>
                 <li className='nav_search'><a href=""><Search/></a></li>
             </ul>
             <figure className='nav_elements'>
@@ -56,6 +55,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-
-

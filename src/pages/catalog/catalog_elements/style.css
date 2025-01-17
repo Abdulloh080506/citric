@@ -204,7 +204,19 @@
 
 
 
-
+@media (max-width: 992px) {
+    .catalog_products .center {
+        width: 100%;
+        display: flex;
+        margin-top: 40px;
+    }
+    .catalog_products .center .catalog_product {
+        width: 49%;
+        height: 500px;
+        border: 1px solid rgb(231, 231, 231);
+        border-radius: 20px;
+    }
+}
 
 
 

@@ -156,6 +156,10 @@ header nav .nav_elements .nav_case {
 .responsive-nav {
     display: none;
 }
+
+
+
+
 @media (max-width: 1025px) {
     header figure {
         width: 14%;
@@ -190,6 +194,96 @@ header nav .nav_elements .nav_case {
 }
 
 
+@media (max-width: 992px) {
+    header {
+        width: 100%;
+        height: 7vh;
+    }
+    .links{
+        display: none;
+    }
+    header .nav_logos {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header figure a {
+        width: 60%;
+        height: 60%;
+    }
+    header figure a img {
+        width: 100%;
+        height: 100%;
+    }
+    .links.is-open{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: white;
+        transition: .3s ease;
+    }
+    .links.is-open ul{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        background-color: transparent;
+        text-align: center;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    .links.is-open ul li {
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .links.is-open ul li a {
+        font-size: 16px;
+    }
+    .nav_search {
+        display: none !important;
+    }
+    .burger {
+        width: 20%;
+        height: 60%;
+        background-color: rgb(234, 234, 234);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    .burger-menu {
+        font-size: 20px;
+    }
+    .burger-menu2{
+        display: block;
+        font-size: 30px;
+        color: black;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    header nav .nav_elements {
+        display: none;
+    }
+    details {
+        display: block !important;
+    }
+}
 
 @media (max-width: 576px) {
     header {

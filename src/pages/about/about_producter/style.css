@@ -96,7 +96,13 @@
     background-color: #70B32F;
     color: white;
 }
-
+.but {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

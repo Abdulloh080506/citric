@@ -13,24 +13,24 @@ const Footer = () => {
             <div className='top'>
                 <div>
                     <p>Elektron pochta</p>
-                    <h2>sales@citric.uz</h2>
+                    <a href="">sales@citric.uz</a>
                 </div>
                 <div>
                     <p>Qo'ng'iroqlar markazi</p>
-                    <h2>(+998) 90 970-65-00</h2>
+                    <a href="">(+998) 90 970-65-00</a>
                 </div>
             </div>
             <div className='center'>
                 <div className='second'>
                     <p>Savollar uchun</p>
-                    <h2>help@citric.uz</h2>
+                    <a href="">help@citric.uz</a>
                 </div>
                 <div className='second'>
                     <p>Ijtimoiy tarmoqlar</p>
                     <div className='icons'>
-                        <FaInstagram/>
-                        <LiaFacebook/>
-                        <RiTelegramLine/>
+                        <a href=""><FaInstagram/></a>
+                        <a href=""><LiaFacebook/></a>
+                        <a href=""><RiTelegramLine/></a>
                     </div>
                 </div>
             </div>

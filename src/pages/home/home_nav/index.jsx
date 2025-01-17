@@ -1,10 +1,12 @@
 import React from 'react';
 import '../home_nav/style.css';
+import { GrFormNextLink } from "react-icons/gr";
+
 const HomeNav = () => {
   return (
     <>
     <section className='home_nav'>
-        <h1>Catalog</h1>
+        <h1>Catalog <GrFormNextLink/></h1>
         <nav>
             <ul>
                 <li><a href="">Everything</a></li>

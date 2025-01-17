@@ -12,8 +12,8 @@
     position: relative;
 }
 .banner .banner_product-circle-1 {
-    width: 70%;
-    height: 170%;
+    width: 700px;
+    height: 700px;
     background-color: #ed9e00;
     border-radius: 50%;
     position: absolute;
@@ -129,8 +129,8 @@
         height: 400px;
     }
     .banner .banner_product-circle-1 {
-        width: 160%;
-        height: 150%;
+        width: 500px;
+        height: 500px;
         position: absolute;
         left: 70px;
     }
@@ -169,10 +169,3 @@
         transform: scale(0.6);
     }
 }
-
-
-
-
-
-
-
