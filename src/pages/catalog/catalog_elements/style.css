@@ -252,4 +252,8 @@
     #burger_2 {
         display: block;
     }
+    .catalog_products .center .catalog_product .top img {
+        width: 60%;
+        height: 55% !important;
+    }
 }
