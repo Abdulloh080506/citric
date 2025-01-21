@@ -14,7 +14,7 @@ const Banner = () => {
           <div>
             <div>
               <div>
-                <img className='img' src={BannerImage2} alt="" />
+                <img className='img1' src={BannerImage2} alt="" />
                 <img className='img' src={BannerImage1} alt="" />
                 <img className='img' src={BannerImage3} alt="" />
                 <img className='banner_position' src={BannerImg} alt="" />

@@ -2,6 +2,7 @@ import React from 'react';
 import '../catalog_elements/style.css';
 import Product1 from '../../../assets/img/product_2.png';
 import { Link } from 'react-router-dom';
+import { IoFilter } from "react-icons/io5";
 
 const CatalogProducts = () => {
     return (
@@ -11,7 +12,7 @@ const CatalogProducts = () => {
         <div id='top' className='top'>
             <div className='top_text'>
                 <h1>All of them</h1>
-                <button>Filter</button>
+                <button><IoFilter/> Filter</button>
             </div>
             <div id=    'top_nav'>
                 <ul>

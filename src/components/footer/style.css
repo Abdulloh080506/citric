@@ -34,9 +34,10 @@
     font-size: 18px;
     color: white;
 }
-.left .top div h2 {
+.left .top div a {
     font-size: 25px;
     color: white;
+    text-decoration: none;
 }
 .left .center {
     width: 90%;
@@ -56,9 +57,10 @@
     font-size: 18px;
     color: white;
 }
-.left .center div h2 {
+.left .center div a {
     font-size: 25px;
     color: white;
+    text-decoration: none;
 }
 .left .center .icons {
     width: 40%;

@@ -8,7 +8,16 @@
     margin-bottom: 100px;
 }
 #blog h1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
     font-size: 40px;
+    gap: 10px;
+}
+#blog h1 svg {
+    transform: rotate(310deg);
+    color: #70B32F;
 }
 .blog-pro {
     width: 100%;
@@ -91,7 +100,7 @@
 @media (max-width: 1025px) {
     #blog {
         width: 100%;
-        height: 3000px !important;
+        height: 1200px !important;
         margin-bottom: 0;
         margin-top: 200px !important;
     }
@@ -102,33 +111,33 @@
         width: 100%;
         height: 95%;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 0;
     }
     .blog-pro .div {
-        width: 100% !important;
-        height: 30%;
+        width: 47% !important;
+        height: 45%;
     }
     .blog-pro div div:nth-child(2) h3 {
         width: 90%;
-        font-size: 40px;
-    }
-    .blog-pro div div:nth-child(2) p {
-        font-size: 25px;
+        font-size: 22px;
     }
     .blog-pro div div:nth-child(2) button {
-        width: 95%;
-        height: 18%;
+        width: 90%;
+        height: 20%;
         font-size: 20px;
         border-radius: 30px;
         padding: 0px 20px;
     }
     .blog-pro div div:nth-child(2) p {
-        font-size: 25px;
+        font-size: 15px;
         width: 90%;
         position: relative;
         left: 20px;
+    }
+    .img:nth-child(1) {
+        transform: scale(1);
     }
 }
 
@@ -136,15 +145,20 @@
 
 @media (max-width: 576px) {
     #blog {
-        display: none;
+        height: 1800px !important;
     }
     .blog h1 {
         font-size: 35px;
     }
     .blog-pro {
-        height: 90%;
+        width: 100%;
+        height: 97%;
         display: flex;
         flex-wrap: wrap;
+    }
+    .blog-pro .div {
+        width: 100% !important;
+        height: 30%;
     }
     .blog-pro div {
         width: 100%;

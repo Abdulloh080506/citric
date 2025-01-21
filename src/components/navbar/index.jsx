@@ -19,11 +19,18 @@ const Navbar = () => {
     <>
     <header id='navbar'>
         <figure className='nav_logos'>
-          <div className='burger'>
-            <GiHamburgerMenu onClick={state} className='burger-menu'/>
+          <div className='nav_left'>
+            <div className='burger'>
+              <GiHamburgerMenu onClick={state} className='burger-menu'/>
+            </div>
+            <Link to="/"><img src={Logo} alt="" /></Link>
           </div>
-          <Link to="/"><img src={Logo} alt="" /></Link>
+          <div className='nav_right'>
+            <div className='nav_case'><Search/></div>
+            <div className='nav_case'><Case/></div>
+          </div>
         </figure>
+        <Link className='logo_nav' to="/"><img src={Logo} alt="" /></Link>
         <nav className={`links ${isOpen ? 'is-open' : ''}` }>
             <ul>
                 <li><Link onClick={state} to="/about">About us</Link></li>
@@ -35,12 +42,11 @@ const Navbar = () => {
             </ul>
             <figure className='nav_elements'>
               <details>
-                <summary>English</summary>
+                <summary>EN <span></span></summary>
                 <div>
-                  <a href="">O'zbekcha</a>
-                  <a href="">Русский</a>
-                  <a href="">English</a>
-                  <a href=""></a>
+                  <a href="">UZ</a>
+                  <a href="">RU</a>
+                  <a href="">EN</a> 
                 </div>
               </details>
               <div className='nav_case'><Case/></div>

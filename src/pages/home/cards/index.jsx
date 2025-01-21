@@ -2,6 +2,7 @@ import React from 'react';
 import '../cards/style.css';
 import BG from '../../../assets/img/product_1.webp';
 import { MdNavigateNext } from "react-icons/md";
+import WhiteLogo from '../../../assets/img/flower.png';
 
 const Cards = () => {
   return (
@@ -23,7 +24,7 @@ const Cards = () => {
             <div className='bg-rounds2'>
                 <div>
                     <div>
-                        <div></div>
+                        <div><img src={WhiteLogo} alt="" /></div>
                     </div>
                 </div>
             </div>

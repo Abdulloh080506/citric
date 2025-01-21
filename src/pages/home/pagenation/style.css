@@ -1,0 +1,22 @@
+.pagenation_container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagenation {
+    width: 100%;
+    height: 50%;
+    background-color: #FFA800;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagenation span {
+    border-bottom: 10px solid white;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    transition: .3s;
+}

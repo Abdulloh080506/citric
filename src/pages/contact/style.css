@@ -1,6 +1,6 @@
 .contact {
     width: 100%;
-    height: 200px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 .contact .phones {
     width: 95%;
-    height: 30%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;

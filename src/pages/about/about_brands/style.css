@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    border: 1px solid gray;
+    border: 1px solid rgb(225, 225, 225);
     margin-top: 80px;
 }
 .aboutbrands .text {
@@ -48,8 +48,8 @@
 .aboutbrands .brands .one div {
     width: 25%;
     height: 100%;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
+    border-top: 1px solid rgb(225, 225, 225);
+    border-right: 1px solid rgb(225, 225, 225);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,8 +66,8 @@
 .aboutbrands .brands .two div {
     width: 25%;
     height: 100%;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
+    border-top: 1px solid rgb(225, 225, 225);
+    border-right: 1px solid rgb(225, 225, 225);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,8 +75,8 @@
 .aboutbrands .brands .three div {
     width: 25%;
     height: 100%;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
+    border-top: 1px solid rgb(225, 225, 225);
+    border-right: 1px solid rgb(225, 225, 225);
     display: flex;
     justify-content: center;
     align-items: center;

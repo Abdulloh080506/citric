@@ -4,6 +4,7 @@ import Cards from './cards';
 import HomeNav from './home_nav';
 import Products from './products';
 import HomeBlog from './blog';
+import Pagenation from './pagenation';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <HomeNav/>
     <Products/>
     <HomeBlog/>
+    <Pagenation/>
     </>
   )
 }

@@ -1,12 +1,13 @@
 import React from 'react';
 import '../blog/style.css';
 import { MdNavigateNext } from "react-icons/md";
+import { GrFormNextLink } from "react-icons/gr";
 
 const HomeBlog = () => {
   return (
     <>
     <section id='blog' className='blog'>
-        <h1>Blog</h1>
+        <h1>Blog <GrFormNextLink/></h1>
         <div className='blog-pro'>
             <div className='div'>
                 <div></div>
