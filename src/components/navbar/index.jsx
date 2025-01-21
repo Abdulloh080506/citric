@@ -53,7 +53,7 @@ const Navbar = () => {
             </figure>
             <div className='responsive-nav'></div>
               <li className='nav_search2'><a href=""><Search/></a></li>
-            <IoClose onClick={state} className='burger-menu2'/>
+              <IoClose onClick={state} className='burger-menu2'/>
         </nav>
     </header>
     </>
