@@ -88,8 +88,13 @@
     background-color:#70B32F ;
     color: white;
 }
-
-
+.blog-pro div div:nth-child(2) button svg {
+    fill: #70B32F;
+    transition: .3s;
+}
+.blog-pro div div:nth-child(2) button:hover svg {
+    fill: white;
+}
 
 
 

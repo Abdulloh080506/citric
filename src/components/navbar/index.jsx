@@ -15,14 +15,23 @@ const Navbar = () => {
     setIsOpen((open) => !open)
   }
 
+
+
+
+  const [modalOpen, setOpen] = useState(false)
+
+  const state2 = () => {
+    setOpen((open) => !open)
+  }
+
+
+
   return (
     <>
     <header id='navbar'>
         <figure className='nav_logos'>
           <div className='nav_left'>
-            <div className='burger'>
-              <GiHamburgerMenu onClick={state} className='burger-menu'/>
-            </div>
+            <div className='nav_case'><GiHamburgerMenu onClick={state} className='burger-menu'/></div>
             <Link to="/"><img src={Logo} alt="" /></Link>
           </div>
           <div className='nav_right'>
@@ -32,13 +41,24 @@ const Navbar = () => {
         </figure>
         <Link className='logo_nav' to="/"><img src={Logo} alt="" /></Link>
         <nav className={`links ${isOpen ? 'is-open' : ''}` }>
+            <div className='responsive-nav'>
+                <IoClose onClick={state} className='burger-menu2'/>
+                <details>
+                <summary>EN <span></span></summary>
+                <div>
+                  <a href="">UZ</a>
+                  <a href="">RU</a>
+                  <a href="">EN</a> 
+                </div>
+              </details>
+            </div>
             <ul>
                 <li><Link onClick={state} to="/about">About us</Link></li>
                 <li><Link onClick={state} to="/catalog">Catalog</Link></li>
                 <li><Link onClick={state} to="/blog">Blog</Link></li>
                 <li><Link onClick={state} to="">Vacancies</Link></li>
                 <li><Link onClick={state} to="/contact">Contacts</Link></li>
-                <li className='nav_search'><a href=""><Search/></a></li>
+                <button onClick={state2}><Search/></button>
             </ul>
             <figure className='nav_elements'>
               <details>
@@ -51,11 +71,13 @@ const Navbar = () => {
               </details>
               <div className='nav_case'><Case/></div>
             </figure>
-            <div className='responsive-nav'></div>
-              <li className='nav_search2'><a href=""><Search/></a></li>
-              <IoClose onClick={state} className='burger-menu2'/>
         </nav>
     </header>
+        <div className={`links_two ${modalOpen ? 'is-open-two' : ''}` }>
+          <div className='search_modal'>
+            <div><input type="text" /> <button onClick={state2}><Search/></button></div>
+          </div>
+        </div>
     </>
   )
 }

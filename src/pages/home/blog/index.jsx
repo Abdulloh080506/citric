@@ -1,7 +1,7 @@
 import React from 'react';
 import '../blog/style.css';
-import { MdNavigateNext } from "react-icons/md";
 import { GrFormNextLink } from "react-icons/gr";
+import { NextIcon } from '../../../assets/icons';
 
 const HomeBlog = () => {
   return (
@@ -14,7 +14,7 @@ const HomeBlog = () => {
                 <div>
                     <h3>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h3>
                     <p>Bu oziq-ovqat sanoatida keng qo'llaniladigan konservant bo'lgan bir xil kimyoviy birikmaning ikkita nomi</p>
-                    <button>Batafsil ko'rish <MdNavigateNext/></button>
+                    <button>Batafsil ko'rish <NextIcon/></button>
                 </div>
             </div>
             <div className='div'>
@@ -22,7 +22,7 @@ const HomeBlog = () => {
                 <div>
                     <h3>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h3>
                     <p>Bu oziq-ovqat sanoatida keng qo'llaniladigan konservant bo'lgan bir xil kimyoviy birikmaning ikkita nomi</p>
-                    <button>Batafsil ko'rish <MdNavigateNext/></button>
+                    <button>Batafsil ko'rish <NextIcon/></button>
                 </div>
             </div>
             <div className='div'>
@@ -30,7 +30,7 @@ const HomeBlog = () => {
                 <div>
                     <h3>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h3>
                     <p>Bu oziq-ovqat sanoatida keng qo'llaniladigan konservant bo'lgan bir xil kimyoviy birikmaning ikkita nomi</p>
-                    <button>Batafsil ko'rish <MdNavigateNext/></button>
+                    <button>Batafsil ko'rish <NextIcon/></button>
                 </div>
             </div>
         </div>

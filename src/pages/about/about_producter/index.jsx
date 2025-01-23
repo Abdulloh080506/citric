@@ -1,6 +1,7 @@
 import React from 'react';
 import '../about_producter/style.css';
 import { MdNavigateNext } from "react-icons/md";
+import { NextIcon } from "../../../assets/icons"
 
 const AboutProducter = () => {
 
@@ -22,7 +23,7 @@ const AboutProducter = () => {
             </div>
             <button>
                 <p>Ariza yuborish</p>
-                <MdNavigateNext/>
+                <NextIcon/>
             </button>
         </div>
         <div className='product'>
@@ -39,7 +40,7 @@ const AboutProducter = () => {
             </div>
             <button>
                 <p>Ariza yuborish</p>
-                <MdNavigateNext/>
+                <NextIcon/>
             </button>
         </div>
         <div className='product'>
@@ -56,7 +57,7 @@ const AboutProducter = () => {
             </div>
             <button>
                 <p>Ariza yuborish</p>
-                <MdNavigateNext/>
+                <NextIcon/>
             </button>
         </div>
         <div className='product'>
@@ -73,7 +74,7 @@ const AboutProducter = () => {
             </div>
             <button>
                 <p>Ariza yuborish</p>
-                <MdNavigateNext/>
+                <NextIcon/>
             </button>
         </div>
         <div className='product'>
@@ -90,7 +91,7 @@ const AboutProducter = () => {
             </div>
             <button>
                 <p>Ariza yuborish</p>
-                <MdNavigateNext/>
+                <NextIcon/>
             </button>
         </div>
         <div className='product'>
@@ -107,7 +108,7 @@ const AboutProducter = () => {
             </div>
             <button>
                 <p>Ariza yuborish</p>
-                <MdNavigateNext/>
+                <NextIcon/>
             </button>
         </div>
     </section>

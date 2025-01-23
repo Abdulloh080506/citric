@@ -40,76 +40,92 @@ const CatalogProducts = () => {
                 </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
             <div className='catalog_product'>
-                <div className='top'>
-                    <img src={Product1} alt="" />
-                </div>
-                <div className='bottom'>
-                    <p>Organik Xlorella kukuni (250g)</p>
-                    <p><span>120 000</span> so'm</p>
-                </div>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
             </div>
         </div>
 

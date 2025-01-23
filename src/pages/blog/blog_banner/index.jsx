@@ -1,6 +1,7 @@
 import React from 'react';
 import '../blog_banner/style.css';
 import { MdNavigateNext } from "react-icons/md";
+import { NextIcon } from "../../../assets/icons";
 
 const BlogBanner = () => {
   return (
@@ -14,7 +15,7 @@ const BlogBanner = () => {
           <div className='texts'>
             <h1>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h1>
             <p>Bu oziq-ovqat sanoatida keng qo'llaniladigan konservant bo'lgan bir xil kimyoviy birikmaning ikkita nomi</p>
-            <button>See more <MdNavigateNext/></button>
+            <button>See more <NextIcon/></button>
           </div>
         </div>
 
@@ -23,7 +24,7 @@ const BlogBanner = () => {
           <div className='texts'>
             <h1>Natriy pirosulfit (Natriy metabisulfit) (Xitoy) E223</h1>
             <p>Bu oziq-ovqat sanoatida keng qo'llaniladigan konservant bo'lgan bir xil kimyoviy birikmaning ikkita nomi</p>
-            <button>See more <MdNavigateNext/></button>
+            <button>See more <NextIcon/></button>
           </div>
         </div>
 

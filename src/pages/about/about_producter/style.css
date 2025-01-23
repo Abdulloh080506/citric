@@ -77,11 +77,11 @@
     color: white;
 }
 .aboutproducter .product button svg {
-    color: #70B32F;
+    fill: #70B32F;
+    transition: .3s;
 }
 .aboutproducter .product button:hover svg {
-    color: white
-    ;
+    fill: white;
 }
 .about_more {
     width: 250px;

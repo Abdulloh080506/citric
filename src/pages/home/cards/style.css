@@ -52,7 +52,8 @@
 }
 .z-index-1 {
     position: absolute;
-    z-index: 20;
+    z-index: 9999;
+    top: 40px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -60,8 +61,8 @@
     align-items: end;
 }
 .z-index-1 img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 .right-card .text{
     position: absolute;
@@ -123,7 +124,12 @@
     color: #70B32F;
 }
 .right-card .text button svg {
+    fill: white;
     transform: scale(1.3);
+    transition: .3s;
+}
+.right-card .text button:hover svg {
+    fill: #70B32F;
 }
 .bg-rounds2 {
     width: 60%;

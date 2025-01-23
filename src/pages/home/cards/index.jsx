@@ -1,8 +1,9 @@
 import React from 'react';
 import '../cards/style.css';
-import BG from '../../../assets/img/product_1.webp';
-import { MdNavigateNext } from "react-icons/md";
+import BG from '../../../assets/img/product_1.png';
 import WhiteLogo from '../../../assets/img/flower.png';
+import { NextIcon } from '../../../assets/icons';
+
 
 const Cards = () => {
   return (
@@ -33,7 +34,7 @@ const Cards = () => {
                 <p>CITRIC.UZ - THE BEST INGREDIENTS FOR A GOOD LIFE.</p>
                 <p>Citric.uz is a global technological company that has been operating in the Uzbek market since 2013. The company represents world leaders in the production of food ingredients.</p>
                 <p>A developed distribution network, well-functioning logistics, consolidation warehouses are located in Europe, China and the CIS countries, and their efforts are aimed at providing food manufacturers with high-quality ingredients and raw materials.</p>
-                <button>Lean more <MdNavigateNext/></button>
+                <button>Lean more <NextIcon/></button>
             </div>
         </main>
     </section>

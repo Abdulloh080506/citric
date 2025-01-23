@@ -8,15 +8,22 @@
     border-radius: 30px;
     margin: auto;
     margin-top: 100px;
+    overflow: hidden;
 }
 .latest .center {
     width: 40%;
-    height: 40%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 40px;
+    position: absolute;
+}
+.latest .about_images {
+    transform: scale(1.3);
+    margin-left: auto;
+    display: flex   ;
 }
 .latest .center h1 {
     font-size: 40px;
@@ -35,13 +42,18 @@
     background-color: transparent;
     border-radius: 30px;
     transition: .3s;
+    background-color: rgb(225, 225, 225);
 }
 .latest .center button:hover {
     background-color:#70B32F;
     color: white;
 }
+.latest .center button svg {
+    fill: #70B32F;
+    transition: .3s;
+}
 .latest .center button:hover svg {
-    color: white;
+    fill: white;
 }
 
 
