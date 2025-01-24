@@ -26,6 +26,14 @@ const Navbar = () => {
 
 
 
+
+  const [shopOpen, setShopOpen] = useState(false)
+
+  const state3 = () => {
+    setShopOpen((open) => !open)
+  }
+
+
   return (
     <>
     <header id='navbar'>
@@ -35,8 +43,8 @@ const Navbar = () => {
             <Link to="/"><img src={Logo} alt="" /></Link>
           </div>
           <div className='nav_right'>
-            <button className='nav_case' onClick={state2}><Search/></button>
-            <div className='nav_case'><Case/></div>
+            <div className='nav_case' onClick={state2}><Search/></div>
+            <div className='nav_case' onClick={state3}><Case/></div>
           </div>
         </figure>
         <Link className='logo_nav' to="/"><img src={Logo} alt="" /></Link>
@@ -69,7 +77,7 @@ const Navbar = () => {
                   <a href="">EN</a> 
                 </div>
               </details>
-              <div className='nav_case'><Case/></div>
+              <div className='nav_case' onClick={state3}><Case/></div>
             </figure>
         </nav>
     </header>
@@ -80,6 +88,10 @@ const Navbar = () => {
           </div>
         </div>
 
+
+        <div className={`shop_links ${shopOpen ? 'is-open-shop' : ''}` }>
+          <IoClose onClick={state3} className='shop_close'/>
+        </div>
     </>
   )
 }

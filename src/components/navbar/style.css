@@ -248,8 +248,33 @@ header nav .nav_elements .nav_case {
     left: 2px;
     top: -3px;
 }
-
-
+.shop_links svg {
+    display: none;
+}
+.is-open-shop {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #70B32F;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    padding: 20px 20px 0px 0px;
+}
+.is-open-shop svg {
+    display: block;
+}
+.shop_close {
+    font-size: 34px;
+    color: black !important;
+    padding: 2px 2px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 50%;
+    cursor: pointer;
+}
 
 
 
