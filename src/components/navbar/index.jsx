@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link to="/"><img src={Logo} alt="" /></Link>
           </div>
           <div className='nav_right'>
-            <div className='nav_case'><Search/></div>
+            <button className='nav_case' onClick={state2}><Search/></button>
             <div className='nav_case'><Case/></div>
           </div>
         </figure>
@@ -73,11 +73,13 @@ const Navbar = () => {
             </figure>
         </nav>
     </header>
+
         <div className={`links_two ${modalOpen ? 'is-open-two' : ''}` }>
           <div className='search_modal'>
-            <div><input type="text" /> <button onClick={state2}><Search/></button></div>
+            <div><input type="text" placeholder='Search...'/> <button onClick={state2}><Search/></button></div>
           </div>
         </div>
+
     </>
   )
 }

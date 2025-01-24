@@ -150,8 +150,11 @@ const Products = () => {
                 <Case/>
             </div>
         </div>
-    <button className='more'>Show more</button>
     </section>
+    <div className='nav_pro_button'>
+
+    <button className='more'>Show more</button>
+    </div>
 
     </>
   )

@@ -53,9 +53,9 @@
 .z-index-1 {
     position: absolute;
     z-index: 9999;
-    top: 40px;
+    top: 100px;
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
     justify-content: end;
     align-items: end;
@@ -237,6 +237,20 @@
         height: 400px;
         margin-left: 150px;
     }
+    .z-index-1 {
+        position: absolute;
+        z-index: 9999;
+        top: 80px;
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    .z-index-1 img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
@@ -289,6 +303,20 @@
         width: 400px;
         height: 400px;
         margin-left: 100px;
+    }
+    .z-index-1 {
+        position: absolute;
+        z-index: 9999;
+        top: 100px;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    .z-index-1 img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -396,5 +424,19 @@
         align-items: center;
         background-color: #FFA800;
         border-radius: 50%;
+    }
+    .z-index-1 {
+        position: absolute;
+        z-index: 9999;
+        top: 100px;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    .z-index-1 img {
+        width: 100%;
+        height: 100%;
     }
 }

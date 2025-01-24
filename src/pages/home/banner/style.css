@@ -141,8 +141,8 @@
     .banner_position {
         position: absolute;
         z-index: 1;
-        top: -360px;
-        left: -650px;
+        top: -400px;
+        left: -630px;
         transform: scale(0.4) rotate(350deg);
     }
     .img1:nth-child(1) {
@@ -151,7 +151,7 @@
         position: absolute;
         z-index: 11;
         top: 200px;
-        left: 120px;
+        left: 150px;
         transform: scale(0.6);
     }
     .img:nth-child(2) {
@@ -160,7 +160,7 @@
         position: absolute;
         z-index: 11;
         top: 300px;
-        left: -80px;
+        left: -60px;
         transform: scale(0.6);
     }
     .img:nth-child(3) {
@@ -168,7 +168,7 @@
         height: 150px;
         position: absolute;
         z-index: 1;
-        top: 120px;
+        top: 80px;
         left: 0;
         transform: scale(0.6);
     }

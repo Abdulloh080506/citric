@@ -14,7 +14,7 @@ const CatalogProducts = () => {
                 <h1>All of them</h1>
                 <button><IoFilter/> Filter</button>
             </div>
-            <div id=    'top_nav'>
+            <div id='top_nav'>
                 <ul>
                     <li><a href="">Antioksidantlar</a></li>
                     <li><a href="">Xushbo'y moddalar</a></li>
