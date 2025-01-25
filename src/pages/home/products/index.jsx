@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import '../products/style.css';
 import { Case } from '../../../assets/icons.js';
+import { useSwiper } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 
 const Products = () => {
+
+    const swiper = useSwiper();
+
   return (
     <>
     <section className='products-container'>
@@ -10,12 +18,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container"> 
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -28,12 +43,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -46,12 +68,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -64,12 +93,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -82,12 +118,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -100,12 +143,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -118,12 +168,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>
@@ -136,12 +193,19 @@ const Products = () => {
             <div className='products-image'>
                 <div className="container">
                     <div className="wrapper">
-                        <div className="wrapper-holder">
-                            <div id="slider-image-1"></div>
-                            <div id="slider-image-2"></div>
-                            <div id="slider-image-3"></div>
-                            <div id="slider-image-4"></div>
-                        </div>
+                    <Swiper
+        spaceBetween={30}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='bg_img1'></SwiperSlide>
+        <SwiperSlide className='bg_img2'></SwiperSlide>
+        <SwiperSlide className='bg_img3'></SwiperSlide>
+        <SwiperSlide className='bg_img4'></SwiperSlide>
+      </Swiper>
                     </div>
                 </div>
             </div>

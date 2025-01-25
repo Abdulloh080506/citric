@@ -11,6 +11,7 @@ const AboutLatestElement = () => {
         <div className='about_images'>
           <img src={AboutBG} alt="" />
           <img src={AboutBGtwo} alt="" />
+          <img src={AboutBG} alt="" />
         </div>
         <div className='center'>
             <h1>Recvisits of Company</h1>

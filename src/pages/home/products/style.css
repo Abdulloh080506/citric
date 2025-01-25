@@ -32,7 +32,6 @@
 .container .wrapper {
     width: 100%;
     height: 100%;
-    background-color: aqua;
     overflow: hidden;
 }
 .container .wrapper-holder {
@@ -41,39 +40,6 @@
     width: 100%;
     height: 100%;
     animation: slider 30s ease-in-out infinite alternate;
-}
-.container #slider-image-1 {
-    background-image: url('../../../assets/img/slide_pro1.webp');
-    background-position: center;
-    background-size: cover;
-}
-.container #slider-image-2 {
-    background-image: url('../../../assets/img/slide_pro2.webp');
-    background-position: center;
-    background-size: cover;
-}
-.container #slider-image-3 {
-    background-image: url('../../../assets/img/slide_pro3.webp');
-    background-position: center;
-    background-size: cover;
-}
-.container #slider-image-4 {
-    background-image: url('../../../assets/img/slide_pro4.webp');
-    background-position: center;
-    background-size: cover;
-}
-@keyframes slider{
-    0%{transform: translateX(0%);}
-    10%{transform: translateX(-100%);}
-    20%{transform: translateX(-100%);}
-    30%{transform: translateX(-200%);}
-    40%{transform: translateX(-200%);}
-    50%{transform: translateX(-200%);}
-    60%{transform: translateX(-300%);}
-    70%{transform: translateX(-300%);}
-    80%{transform: translateX(-300%);}
-    90%{transform: translateX(0%);}
-    100%{transform: translateX(0%);}
 }
 .products-about {
     width: 90%;
@@ -113,8 +79,42 @@
     background-color: #70B32F;
     color: white;
 }
-
-
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bg_img1 {
+    background-image: url('../../../assets/img/slide_pro1.webp');
+    background-size: cover;
+}
+.bg_img2 {
+    background-image: url('../../../assets/img/slide_pro2.webp');
+    background-size: cover;
+}
+.bg_img3 {
+    background-image: url('../../../assets/img/slide_pro3.webp');
+    background-size: cover;
+}
+.bg_img4 {
+    background-image: url('../../../assets/img/slide_pro4.webp');
+    background-size: cover;
+}
 
 
 

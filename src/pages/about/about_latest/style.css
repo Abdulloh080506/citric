@@ -1,7 +1,7 @@
 .latest {
     width: 85%;
     height:500px;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(245, 245, 245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
     background-color: transparent;
     border-radius: 30px;
     transition: .3s;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(245, 245, 245);
 }
 .latest .center button:hover {
     background-color:#70B32F;
