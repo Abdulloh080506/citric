@@ -7,6 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 import Product1 from '../../assets/img/product_2.png';
+import { Empty } from '../../assets/icons';
 
 const Navbar = () => {
 
@@ -36,6 +37,14 @@ const Navbar = () => {
 
 
 
+
+  
+  const [isDropOpen, setIsDropOpen] = useState(false);
+
+
+
+
+
   return (
     <>
     <header id='navbar'>
@@ -53,14 +62,19 @@ const Navbar = () => {
         <nav className={`links ${isOpen ? 'is-open' : ''}` }>
             <div className='responsive-nav'>
                 <IoClose onClick={state} className='burger-menu2'/>
-                <details>
-                <summary>EN <span></span></summary>
-                <div>
-                  <a href="">UZ</a>
-                  <a href="">RU</a>
-                  <a href="">EN</a> 
-                </div>
-              </details>
+                <div className="dropdown">
+              <button className="dropdown-button" onClick={() => setIsDropOpen(!isDropOpen)}>
+                UZ
+                <span className={`arrow ${isDropOpen ? "rotate" : ""}`}>▼</span>
+              </button>
+              {isDropOpen && (
+                <ul className="dropdown-menu">
+                  <li>RU</li>
+                  <li>EN</li>
+                  <li>UZ</li>
+                </ul>
+              )}
+            </div>
             </div>
             <ul>
                 <li><Link onClick={state} to="/about">About us</Link></li>
@@ -71,14 +85,24 @@ const Navbar = () => {
                 <button onClick={state2}><Search/></button>
             </ul>
             <figure className='nav_elements'>
-              <details>
-                <summary>EN <span></span></summary>
-                <div>
-                  <a href="">UZ</a>
-                  <a href="">RU</a>
-                  <a href="">EN</a> 
-                </div>
-              </details>
+
+
+
+
+            <div className="dropdown">
+              <button className="dropdown-button" onClick={() => setIsDropOpen(!isDropOpen)}>
+                UZ
+                <span className={`arrow ${isDropOpen ? "rotate" : ""}`}>▼</span>
+              </button>
+              {isDropOpen && (
+                <ul className="dropdown-menu">
+                  <li>RU</li>
+                  <li>EN</li>
+                  <li>UZ</li>
+                </ul>
+              )}
+            </div>
+
               <div className='nav_case' onClick={state3}><Case/></div>
             </figure>
         </nav>
@@ -87,6 +111,10 @@ const Navbar = () => {
         <div className={`links_two ${modalOpen ? 'is-open-two' : ''}` }>
           <div className='search_modal'>
             <div><input type="text" placeholder='Search...'/> <button onClick={state2}><Search/></button></div>
+          </div>
+          <div className='empty'>
+            <Empty/>
+            <p>Hech narsa topilmadi</p> 
           </div>
         </div>
 
@@ -131,6 +159,17 @@ const Navbar = () => {
                 </Link>
             </div>
 
+            <div className='catalog_product'>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
+            </div>
 
             <div className='catalog_product'>
             <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
@@ -144,8 +183,17 @@ const Navbar = () => {
                 </Link>
             </div>
 
-
-            
+            <div className='catalog_product'>
+            <Link style={{textDecoration:'none', color:'black'}} to="/pro#first">
+                    <div className='top'>
+                        <img src={Product1} alt="" />
+                    </div>
+                    <div className='bottom'>
+                        <p>Organik Xlorella kukuni (250g)</p>
+                        <p><span>120 000</span> so'm</p>
+                    </div>
+                </Link>
+            </div>
 
           </div>
           <IoClose onClick={state3} className='shop_close'/>

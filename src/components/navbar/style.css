@@ -57,6 +57,7 @@ header nav ul li a:hover {
 }
 header nav ul li a:focus {
     border-bottom: 1.5px solid #70B32F;
+    color: #70B32F;
 }
 header nav .nav_elements {
     width: 15%;
@@ -91,7 +92,7 @@ header nav .nav_elements details summary span {
     transform: rotate(90deg);
     transition: .3s;
 }
-header nav .nav_elements details:focus summary span {
+header nav .nav_elements details:active summary span {
     transform: rotate(180deg);
 }
 header nav .nav_elements details div {
@@ -206,6 +207,23 @@ header nav .nav_elements .nav_case {
     display: block;
 }
 
+.links_two.is-open-two .empty {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.empty svg {
+    font-size: 25px;
+    fill: black;
+}
+.empty p {
+    font-size: 20px;
+}
+
 .search_modal {
     width: 35%;
     height: 80px;
@@ -252,17 +270,22 @@ header nav .nav_elements .nav_case {
     display: none;
 }
 .is-open-shop {
-    width: 100%;
-    height: 50vh;
+    width: 35%;
+    height: 100vh;
     position: absolute;
     z-index: 9999;
     top: 0;
-    left: 0;
-    background-color: #70B32F;
+    right: 0;
+    background-color: rgb(241, 241, 241);
     display: flex;
     justify-content: space-between;
     align-items: start;
     padding: 20px 20px;
+}
+body.is-open-shop {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
 }
 .is-open-shop svg {
     display: block;
@@ -280,15 +303,91 @@ header nav .nav_elements .nav_case {
 }
 .is-open-shop .shop_products {
     display: flex;
-    width: 97%;
+    flex-wrap: wrap;
+    width: 93%;
     height: 100%;
     align-items: center;
     gap: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
 }
 .is-open-shop .shop_products .catalog_product {
-    width: 380px;
+    width: 48%;
+    height: 380px;
     background-color: white;
 }
+.is-open-shop .shop_products .catalog_product .bottom p:nth-child(1) {
+    font-size: 20px;
+}
+.is-open-shop .shop_products .catalog_product .bottom p:nth-child(2) {
+    font-size: 25px;
+}
+
+
+/* Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Button */
+  .dropdown-button {
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    background: rgb(237, 237, 237);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+  }
+  
+  /* Arrow */
+  .arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow.rotate {
+    transform: rotate(180deg);
+  }
+  
+  /* Menu */
+  .dropdown-menu {
+    width: 90px;
+    height: 140px;
+    list-style: none;
+    border-radius: 20px;
+    background: rgb(238, 238, 238);
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .dropdown-menu li {
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .dropdown-menu li:hover {
+    color: #70B32F;
+  }
+
+
+
+
+
 
 
 @media (max-width: 1025px) {
@@ -614,5 +713,38 @@ header nav .nav_elements .nav_case {
     }
     .responsive-nav details div {
         height: 14%;
+    }
+    .is-open-shop{ 
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .is-open-shop .shop_products {
+        width: 100%;
+        height: 93%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .is-open-shop .shop_products .catalog_product {
+        width: 47%;
+        height: 250px;
+        background-color: white;
+    }
+    .is-open-shop .shop_products .catalog_product .bottom p:nth-child(1) {
+        font-size: 15px;
+        position: relative;
+        left: 5px;
+    }
+    .is-open-shop .shop_products .catalog_product .bottom p:nth-child(2) {
+        font-size: 17px;
+        position: relative;
+        left: 5px;
+    }
+    .is-open-shop .shop_products .catalog_product .bottom p:nth-child(2) span {
+        font-size: 18px;
     }
 }
